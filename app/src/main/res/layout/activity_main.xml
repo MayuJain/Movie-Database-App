@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAddMovie"
+        android:layout_width="195dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/Addmovie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEditMovie"
+        android:layout_width="195dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/Edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddMovie" />
+
+    <Button
+        android:id="@+id/btndeleteMovie"
+        android:layout_width="195dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/DeleteMovie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEditMovie" />
+
+    <Button
+        android:id="@+id/btnlistbyyear"
+        android:layout_width="195dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/ShowListbyYear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btndeleteMovie" />
+
+    <Button
+        android:id="@+id/btnlistbyRating"
+        android:layout_width="195dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/ShowListbyRating"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlistbyyear"
+        app:layout_constraintVertical_bias="0.127" />
+</androidx.constraintlayout.widget.ConstraintLayout>

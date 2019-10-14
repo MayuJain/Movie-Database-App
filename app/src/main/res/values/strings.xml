@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Homework04</string>
+    <string name="Edit">Edit</string>
+    <string name="DeleteMovie">Delete Movie</string>
+    <string name="ShowListbyYear"> Show List by Year </string>
+    <string name="ShowListbyRating">Show List by Rating</string>
+    <string name="Description">Description:</string>
+    <string name="Genre">Genre:</string>
+    <string name="Rating">Rating:</string>
+    <string name="Name">Name</string>
+    <string name="Year">Year</string>
+    <string name="IMDB">IMDB</string>
+    <string name="editDialogTitle">Pick a movie</string>
+    <string name="deleteDialogTitle">Delete a movie</string>
+    <string name="Addmovie">Add Movie</string>
+    <string name="bt_edit_label">Edit Movie</string>
+    <string name="NoMovieDeleteError">No movie available to Delete.</string>
+    <string name="NoMovieEditError">No movie available to Edit.</string>
+    <string name="NoMovieAvailable">No movie available to show</string>
+    <string name="listRating_header">Movies By Rating</string>
+    <string name="title_label">Title: </string>
+    <string name="finish_label">Finish</string>
+    <string name="listYear_header">Movies By Year</string>
+    <string name="year_label">Year:</string>
+    <string name="imdb_label">IMDB:</string>
+    <string name="invalidInput">Invalid Input</string>
+    <string-array name="movie_genre">
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+</resources>

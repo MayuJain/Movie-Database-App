@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListbyYearActivity">
+
+    <TextView
+        android:id="@+id/tv_header_year"
+        android:layout_width="278dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/listYear_header"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title_year"
+        android:layout_width="74dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/title_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_header_year" />
+
+    <TextView
+        android:id="@+id/tv_title_value_year"
+        android:layout_width="245dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toEndOf="@+id/tv_title_year"
+        app:layout_constraintTop_toBottomOf="@+id/tv_header_year" />
+
+    <TextView
+        android:id="@+id/tv_desc_label_year"
+        android:layout_width="85dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/Description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_year" />
+
+    <EditText
+        android:id="@+id/tv_desc_value_year"
+        android:layout_width="241dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toEndOf="@+id/tv_desc_label_year"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_value_year" />
+
+    <TextView
+        android:id="@+id/tv_genre_label_year"
+        android:layout_width="97dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/Genre"
+        app:layout_constraintEnd_toStartOf="@+id/tv_genre_value_year"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc_label_year" />
+
+    <TextView
+        android:id="@+id/tv_genre_value_year"
+        android:layout_width="217dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toEndOf="@+id/tv_genre_label_year"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc_value_year" />
+
+    <TextView
+        android:id="@+id/tv_rating_label_year"
+        android:layout_width="105dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/Rating"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_genre_label_year" />
+
+    <TextView
+        android:id="@+id/tv_rating_value_year"
+        android:layout_width="217dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_rating_label_year"
+        app:layout_constraintTop_toBottomOf="@+id/tv_genre_value_year" />
+
+    <TextView
+        android:id="@+id/tv_year_label_year"
+        android:layout_width="101dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/year_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rating_label_year" />
+
+    <TextView
+        android:id="@+id/tv_year_value_year"
+        android:layout_width="208dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_year_label_year"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rating_value_year" />
+
+    <TextView
+        android:id="@+id/tv_imdb_label_year"
+        android:layout_width="102dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/imdb_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_year_label_year" />
+
+    <TextView
+        android:id="@+id/tv_imdb_value_year"
+        android:layout_width="217dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_imdb_label_year"
+        app:layout_constraintTop_toBottomOf="@+id/tv_year_value_year" />
+
+    <Button
+        android:id="@+id/bt_finish_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/finish_label"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/im_next_year"
+        app:layout_constraintStart_toEndOf="@+id/im_prev_year"
+        app:layout_constraintTop_toBottomOf="@+id/tv_imdb_value_year"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/im_prev_year"
+        android:layout_width="49dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt_finish_year"
+        app:layout_constraintStart_toEndOf="@+id/im_first_year"
+        app:layout_constraintTop_toBottomOf="@+id/tv_imdb_value_year"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <ImageView
+        android:id="@+id/im_first_year"
+        android:layout_width="43dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/first"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/im_prev_year"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_imdb_value_year"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <ImageView
+        android:id="@+id/im_next_year"
+        android:layout_width="52dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/im_last_year"
+        app:layout_constraintStart_toEndOf="@+id/bt_finish_year"
+        app:layout_constraintTop_toBottomOf="@+id/tv_imdb_value_year"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <ImageView
+        android:id="@+id/im_last_year"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/last"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/im_next_year"
+        app:layout_constraintTop_toBottomOf="@+id/tv_imdb_value_year"
+        app:layout_constraintVertical_bias="0.064" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
